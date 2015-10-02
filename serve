@@ -1,0 +1,4 @@
+#!/bin/bash
+APP_DIR=/usr/src/app
+$APP_DIR/bin/unicorn -p $PORT -c $APP_DIR/config/unicorn.rb
+
